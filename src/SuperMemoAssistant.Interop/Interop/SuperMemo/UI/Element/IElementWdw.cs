@@ -157,6 +157,20 @@ namespace SuperMemoAssistant.Interop.SuperMemo.UI.Element
     /// <returns>Success of operation</returns>
     bool PostponeRepetition(int interval);
 
+    /// <summary>Changes the element grade</summary>
+    /// <param name="grade">The new grade</param>
+    /// <returns>Success of operation</returns>
+    bool SetGrade(int grade);
+ 
+    /// <summary>Gets the priority of the element with the element number</summary>
+    /// <param name="elementNumber">The element number</param>
+    /// <returns>The priority of the element; 0 if unsuccessful operation</returns>
+    float GetElementPriority(int elementNumber);
+ 
+    /// <summary>Gets data from the current element in string format</summary>
+    /// <returns>The data from the current element in string format</returns>
+    string GetElementAsText();
+
     /// <summary>
     ///   Executes a repetition on the current element and postpones it for <paramref name="interval" /> days. If
     ///   <paramref name="adjustPriority" /> is true, also changes the priority depending on the given interval
