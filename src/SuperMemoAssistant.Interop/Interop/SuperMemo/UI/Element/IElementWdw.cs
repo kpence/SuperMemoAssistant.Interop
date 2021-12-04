@@ -170,6 +170,14 @@ namespace SuperMemoAssistant.Interop.SuperMemo.UI.Element
     /// <summary>Gets data from the current element in string format</summary>
     /// <returns>The data from the current element in string format</returns>
     string GetElementAsText();
+ 
+    /// <summary>
+    ///   Begin Learning Mode. This might not always work as intended depending on the current
+    ///   <see cref="LearningMode" />
+    /// <param name="learningMode">The current learning mode?</param>
+    /// </summary>
+    /// <returns>Success of operation</returns>
+    bool BeginLearning(LearningMode learningMode);
 
     /// <summary>
     ///   Executes a repetition on the current element and postpones it for <paramref name="interval" /> days. If
