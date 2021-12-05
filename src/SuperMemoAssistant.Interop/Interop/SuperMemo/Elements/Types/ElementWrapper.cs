@@ -82,6 +82,8 @@ namespace SuperMemoAssistant.Interop.SuperMemo.Elements.Types
     /// <inheritdoc />
     public string Title => Original.Title;
     /// <inheritdoc />
+    public string Comment => Original.Comment;
+    /// <inheritdoc />
     public bool Deleted => Original.Deleted;
     /// <inheritdoc />
     public ElementType Type => Original.Type;
