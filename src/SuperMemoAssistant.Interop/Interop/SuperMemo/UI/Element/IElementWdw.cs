@@ -178,6 +178,15 @@ namespace SuperMemoAssistant.Interop.SuperMemo.UI.Element
     /// </summary>
     /// <returns>Success of operation</returns>
     bool BeginLearning(LearningMode learningMode);
+ 
+    // TODO Delete this
+    bool FindText();
+ 
+    // TODO give doc string
+    bool SetTitle(int elementId, string title);
+ 
+    // TODO give doc string
+    bool SetPriority(int elementId, double priority);
 
     /// <summary>
     ///   Executes a repetition on the current element and postpones it for <paramref name="interval" /> days. If
