@@ -186,6 +186,9 @@ namespace SuperMemoAssistant.Interop.SuperMemo.UI.Element
     bool SetTitle(int elementId, string title);
  
     // TODO give doc string
+    bool AppendComment(int elementId, string comment);
+ 
+    // TODO give doc string
     bool SetPriority(int elementId, double priority);
 
     /// <summary>
