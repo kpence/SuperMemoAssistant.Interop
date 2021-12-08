@@ -143,6 +143,9 @@ namespace SuperMemoAssistant.Interop.SuperMemo.UI.Element
     // TODO docstring
     bool NextRepetition();
 
+    // TODO docstring
+    bool BackButtonClick();
+
     /// <summary>Raises an event when the element in the Element window changes</summary>
     event Action<SMDisplayedElementChangedEventArgs> OnElementChanged;
 
