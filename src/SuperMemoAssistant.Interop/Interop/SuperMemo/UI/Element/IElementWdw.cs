@@ -140,6 +140,9 @@ namespace SuperMemoAssistant.Interop.SuperMemo.UI.Element
     // TODO docstring
     bool DismissElement(int elNo);
 
+    // TODO docstring
+    bool NextRepetition();
+
     /// <summary>Raises an event when the element in the Element window changes</summary>
     event Action<SMDisplayedElementChangedEventArgs> OnElementChanged;
 
