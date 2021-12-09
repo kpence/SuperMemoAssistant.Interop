@@ -133,9 +133,6 @@ namespace SuperMemoAssistant.Interop.SuperMemo.UI.Element
     /// <returns>Success of operation</returns>
     bool Delete();
 
-    ///  TODO docstring
-    bool SelectAll();
-
     /// <summary>Removes the content from the current element and removes it from the learning queue.</summary>
     /// <returns>Success of operation</returns>
     bool Done();
