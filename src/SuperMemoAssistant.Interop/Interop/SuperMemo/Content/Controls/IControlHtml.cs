@@ -32,5 +32,6 @@ namespace SuperMemoAssistant.Interop.SuperMemo.Content.Controls
   public interface IControlHtml : IControlTextBase
   {
     IntPtr? DocumentHwnd { get; }
+    public mshtml.IHTMLDocument2 Document { get; }
   }
 }
